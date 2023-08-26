@@ -50,4 +50,8 @@ services:
     networks:
       - vulnerable-net
 
-  
+# Add more services here if needed
+
+networks:
+  vulnerable-net:
+    driver: bridge

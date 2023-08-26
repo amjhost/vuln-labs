@@ -6,15 +6,10 @@ This repository contains a Docker Compose setup for running multiple intentional
 
 - **bWAPP**: Buggy Web Application
 - **DVWA**: Damn Vulnerable Web Application
-- **WAMPI**: Windows, Apache, MySQL, PHP, phpMyAdmin
 - **Mutillidae II**: OWASP Mutillidae II
 - **WebGoat**: OWASP WebGoat
 - **Juice Shop**: OWASP Juice Shop
 - **Security Shepherd**: OWASP Security Shepherd
-- **WebWolf**: OWASP WebWolf
-- **Insecure Bank**: Web Security Academy's Insecure Bank
-- **Insecure Payroll**: Web Security Academy's Insecure Payroll
-- **Insecure Labs**: Web Security Academy's Insecure Labs
 
 ## Getting Started
 
@@ -37,11 +32,6 @@ Once the applications are up and running, you can access them using a web browse
 - Mutillidae II: [http://localhost:83](http://localhost:83)
 - WebGoat: [http://localhost:84](http://localhost:84)
 - Juice Shop: [http://localhost:85](http://localhost:85)
-- Security Shepherd: [http://localhost:86](http://localhost:86)
-- WebWolf: [http://localhost:87](http://localhost:87)
-- Insecure Bank: [http://localhost:88](http://localhost:88)
-- Insecure Payroll: [http://localhost:89](http://localhost:89)
-- Insecure Labs: [http://localhost:90](http://localhost:90)
 
 Remember that these applications are intentionally vulnerable. Do not expose them to the public internet or use them for any malicious activities. They are meant for learning and testing purposes only.
 

@@ -6,7 +6,7 @@ This repository contains a Docker Compose setup for running multiple intentional
 You can manually instal these two 
 -  Docker
 - docker-compose
-                - or-
+or
 cd into vuln-labs and run ```bash sudo ./prerequisites.sh```
 ## Applications Included
 

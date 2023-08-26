@@ -4,10 +4,10 @@ This repository contains a Docker Compose setup for running multiple intentional
 
 ## Prerequisites
 You can manually instal these two 
- Docker
-docker-compose
-                                or
-     cd into vuln-labs and run [sudo ./prerequisites.sh]
+-  Docker
+- docker-compose
+                     or
+     cd into vuln-labs and run ```bash sudo ./prerequisites.sh```
 ## Applications Included
 
 - **bWAPP**: Buggy Web Application

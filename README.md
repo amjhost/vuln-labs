@@ -23,7 +23,7 @@ To set up and run these vulnerable applications using Docker Compose, follow the
 
 1. Make sure you have Docker and Docker Compose installed on your system.
 2. Clone this repository: `git clone https://github.com/amjhost/vulnerable-apps.git`
-3. Navigate to the cloned directory: `cd vulnerable-apps`
+3. Navigate to the cloned directory: `cd vuln-labs`
 4. Run the applications using Docker Compose: `docker-compose up`
 
 Each application will be accessible through its designated port as mentioned in the `docker-compose.yml` file.

@@ -22,7 +22,7 @@ cd into vuln-labs and run ```sudo ./prerequisites.sh```
 To set up and run these vulnerable applications using Docker Compose, follow these steps:
 
 1. Make sure you have Docker and Docker Compose installed on your system.
-2. Clone this repository: `git clone https://github.com/amjhost/vulnerable-apps.git`
+2. Clone this repository: `git clone https://github.com/amjhost/vuln-labs.git`
 3. Navigate to the cloned directory: `cd vuln-labs`
 4. Run the applications using Docker Compose: `docker-compose up`
 

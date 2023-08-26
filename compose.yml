@@ -1,0 +1,53 @@
+version: '3'
+services:
+  # bWAPP - Buggy Web Application
+  bwapp:
+    image: raesene/bwapp
+    ports:
+      - "80:80"
+    networks:
+      - vulnerable-net
+
+  # Damn Vulnerable Web Application (DVWA)
+  dvwa:
+    image: vulnerables/web-dvwa
+    ports:
+      - "81:80"
+    environment:
+      - PHPIDS_SENSITIVE="false"
+    networks:
+      - vulnerable-net
+
+  # OWASP Mutillidae II
+  mutillidae:
+    image: citizenstig/nowasp
+    ports:
+      - "83:80"
+    networks:
+      - vulnerable-net
+
+  # OWASP WebGoat
+  webgoat:
+    image: webgoat/webgoat-8.0
+    ports:
+      - "84:8080"
+    networks:
+      - vulnerable-net
+
+  # OWASP Juice Shop
+  juice-shop:
+    image: bkimminich/juice-shop
+    ports:
+      - "85:3000"
+    networks:
+      - vulnerable-net
+
+  # OWASP Security Shepherd
+  security-shepherd:
+    image: owasp/security-shepherd
+    ports:
+      - "86:8080"
+    networks:
+      - vulnerable-net
+
+  

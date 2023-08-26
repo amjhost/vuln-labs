@@ -3,9 +3,9 @@
 This repository contains a Docker Compose setup for running multiple intentionally vulnerable web applications. These applications are meant for educational and training purposes to help users understand various web security vulnerabilities and their mitigations.
 
 ## Prerequisites
-    You can manually instal these two 
-    Docker
-    docker-compose
+You can manually instal these two 
+ Docker
+docker-compose
                                 or
      cd into vuln-labs and run [sudo ./prerequisites.sh]
 ## Applications Included

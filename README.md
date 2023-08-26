@@ -7,7 +7,7 @@ You can manually instal these two
 -  Docker
 - docker-compose
 or
-cd into vuln-labs and run ```bash sudo ./prerequisites.sh```
+cd into vuln-labs and run ```sudo ./prerequisites.sh```
 ## Applications Included
 
 - **bWAPP**: Buggy Web Application
